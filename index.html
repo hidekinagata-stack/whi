@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>選考対策＆企業魅力完全ガイド | 株式会社Works Human Intelligence</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#ebf5ff',
+                            100: '#e0f2fe',
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                            900: '#1e3a8a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        /* 印刷・PDF崩れ絶対防止CSS */
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            body {
+                background-color: #ffffff !important;
+                background-image: none !important;
+                color: #000000 !important;
+                font-size: 11pt;
+            }
+            .card, .border, [class*="rounded-"], pre, blockquote {
+                break-inside: avoid !important;
+                page-break-inside: avoid !important;
+                box-shadow: none !important;
+            }
+            header, section {
+                break-inside: auto;
+            }
+            h1, h2, h3, h4 {
+                break-after: avoid !important;
+                page-break-after: avoid !important;
+            }
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- HERO HEADER -->
+    <header class="relative bg-gradient-to-br from-brand-900 via-brand-800 to-brand-600 text-white pt-12 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden shadow-lg">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-6xl mx-auto relative z-10">
+            <div class="inline-block bg-brand-500/30 backdrop-blur-md border border-white/20 text-brand-100 text-xs sm:text-sm font-semibold px-3 py-1 rounded-full mb-4">
+                候補者限定選考対策資料
+            </div>
+            <h1 class="text-3xl sm:text-5xl font-black tracking-tight mb-2">
+                株式会社Works Human Intelligence
+            </h1>
+            <p class="text-xl sm:text-2xl font-bold text-brand-100 mb-4">
+                選考対策＆企業魅力完全ガイド
+            </p>
+            <p class="max-w-3xl text-sm sm:text-base text-slate-200 leading-relaxed mb-8">
+                大手企業を中心に約1,200法人グループの「人事・給与業務」をITで自動化・最適化し、働く人の時間を創出する「HRテック」のリーディングカンパニー。主力製品「COMPANY」は、日本の複雑な人事制度に対応できる高い機能性と、25年以上の実績を誇る安定感で、日本の「はたらく」を根底から支えています。
+            </p>
+
+            <!-- Navigation Tags -->
+            <nav class="no-print flex flex-wrap gap-2 pt-2 border-t border-white/20">
+                <a href="#section-1" class="bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-lg transition-colors border border-white/10">
+                    1. 企業の魅力・強み
+                </a>
+                <a href="#section-2" class="bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-lg transition-colors border border-white/10">
+                    2. 面接前確認事項（理念・条件）
+                </a>
+                <a href="#section-3" class="bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-lg transition-colors border border-white/10">
+                    3. 想定質問・対策内容
+                </a>
+                <a href="#section-4" class="bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-lg transition-colors border border-white/10">
+                    4. 参考URL集
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+
+        <!-- SECTION 1 -->
+        <section id="section-1" class="scroll-mt-6">
+            <div class="border-l-4 border-brand-600 pl-4 mb-6">
+                <h2 class="text-2xl font-bold text-slate-900">SECTION 1: 企業の魅力・強み</h2>
+                <p class="text-sm text-slate-600">インフォグラフィックで見る企業の圧倒的実績と他社差別化要因</p>
+            </div>
+
+            <!-- KPI Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="card bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-brand-600 font-bold text-xs uppercase tracking-wider mb-1">導入実績</div>
+                    <div class="text-3xl font-black text-slate-900 mb-1">約 1,200 <span class="text-lg font-normal text-slate-600">法人グループ</span></div>
+                    <div class="text-2xl font-bold text-brand-700 mb-2">510万人超<span class="text-xs font-normal text-slate-500">を支援</span></div>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        大手企業を中心に導入されており、日本の大企業の労働インフラ・人事情報を根底から強力に支えています。
+                    </p>
+                </div>
+
+                <div class="card bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-brand-600 font-bold text-xs uppercase tracking-wider mb-1">信頼と顧客満足度</div>
+                    <div class="text-3xl font-black text-slate-900 mb-1">平均 13 年</div>
+                    <div class="text-2xl font-bold text-brand-700 mb-2">継続率 98%</div>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        一度導入されたら手放せない圧倒的な品質と信頼。継続利用年数・年間契約継続率の高さが質の高さを証明しています。
+                    </p>
+                </div>
+
+                <div class="card bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-brand-600 font-bold text-xs uppercase tracking-wider mb-1">製品優位性</div>
+                    <div class="text-xl font-bold text-slate-900 mb-2">人事統合型システム</div>
+                    <div class="text-sm font-semibold text-brand-700 mb-2">一元管理で大幅コスト削減</div>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        これ1つで人事部の課題を網羅的に解決。個別の製品導入による高額コストやシステム間連携の手間を完璧に解消します。
+                    </p>
+                </div>
+            </div>
+
+            <!-- Step Flow Diagram / Differentiation -->
+            <div class="card bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h3 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-brand-600"></span>
+                    他企業との明確な差別化ポイント
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="flex flex-col bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <div class="flex items-center gap-2 text-brand-700 font-bold mb-2">
+                            <span class="w-6 h-6 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center text-xs">1</span>
+                            ターゲットは大手企業
+                        </div>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            日本の大企業における複雑な人事制度・大規模データ処理に特化したシステム開発とナレッジを保有。
+                        </p>
+                    </div>
+                    <div class="flex flex-col bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <div class="flex items-center gap-2 text-brand-700 font-bold mb-2">
+                            <span class="w-6 h-6 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center text-xs">2</span>
+                            人事統合型ソリューション
+                        </div>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            給与・労務・評価などを単一システムで一元管理。複数システムの契約・運用負荷を排除。
+                        </p>
+                    </div>
+                    <div class="flex flex-col bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <div class="flex items-center gap-2 text-brand-700 font-bold mb-2">
+                            <span class="w-6 h-6 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center text-xs">3</span>
+                            業務効率化と価値創出
+                        </div>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            複雑な人事・給与業務を自動化・最適化することで、人事部が「本質的な業務」に注力できる時間を創出。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2 -->
+        <section id="section-2" class="scroll-mt-6">
+            <div class="border-l-4 border-brand-600 pl-4 mb-6">
+                <h2 class="text-2xl font-bold text-slate-900">SECTION 2: 面接前確認事項</h2>
+                <p class="text-sm text-slate-600">企業のミッション・バリューおよび働く環境・条件面の実態</p>
+            </div>
+
+            <!-- Mission -->
+            <div class="card bg-gradient-to-r from-brand-900 to-brand-800 text-white p-6 rounded-xl mb-6 shadow-sm">
+                <div class="text-xs font-bold text-brand-100 uppercase tracking-wider mb-1">MISSION</div>
+                <h3 class="text-lg sm:text-xl font-bold leading-snug">
+                    「複雑化・多様化する社会課題を、人の知恵を結集し解決することで『はたらく』を楽しくする」
+                </h3>
+            </div>
+
+            <!-- 7 Values -->
+            <div class="card bg-white p-6 rounded-xl border border-slate-200 shadow-sm mb-6">
+                <h3 class="text-base font-bold text-slate-900 mb-4">■ バリュー：7つのValue</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                    <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+                        <span class="font-bold text-brand-700 text-sm block">1. Work fun!</span>
+                        <span class="text-xs text-slate-600">遊び心で仕事を楽しむ</span>
+                    </div>
+                    <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+                        <span class="font-bold text-brand-700 text-sm block">2. Ownership</span>
+                        <span class="text-xs text-slate-600">当事者意識を持ってやり切る</span>
+                    </div>
+                    <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+                        <span class="font-bold text-brand-700 text-sm block">3. Respect</span>
+                        <span class="text-xs text-slate-600">一緒に働く仲間とお客様を尊重する</span>
+                    </div>
+                    <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+                        <span class="font-bold text-brand-700 text-sm block">4. Client Value</span>
+                        <span class="text-xs text-slate-600">お客様の価値を創造する</span>
+                    </div>
+                    <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+                        <span class="font-bold text-brand-700 text-sm block">5. Essence</span>
+                        <span class="text-xs text-slate-600">本質を追求し問題を解決する</span>
+                    </div>
+                    <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+                        <span class="font-bold text-brand-700 text-sm block">6. Challenge</span>
+                        <span class="text-xs text-slate-600">失敗を恐れず挑戦する</span>
+                    </div>
+                    <div class="p-3 bg-slate-50 rounded-lg border border-slate-200 col-span-1 sm:col-span-2 lg:col-span-2">
+                        <span class="font-bold text-brand-700 text-sm block">7. Integrity</span>
+                        <span class="text-xs text-slate-600">品格をもって誠実に取り組む</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conditions Card -->
+            <div class="card bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h3 class="text-base font-bold text-slate-900 mb-3">■ 条件面・働く環境の実態</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="p-4 bg-slate-50 rounded-lg border border-slate-200 flex flex-col justify-between">
+                        <span class="text-xs text-slate-500 font-semibold mb-1">転勤</span>
+                        <span class="text-base font-bold text-slate-800">基本的に転勤なし</span>
+                        <p class="text-xs text-slate-500 mt-2">腰を据えて長期的なキャリア形成が可能です。</p>
+                    </div>
+                    <div class="p-4 bg-slate-50 rounded-lg border border-slate-200 flex flex-col justify-between">
+                        <span class="text-xs text-slate-500 font-semibold mb-1">勤務時間</span>
+                        <span class="text-base font-bold text-slate-800">フレックス制度活用可能</span>
+                        <p class="text-xs text-slate-500 mt-2">業務や個人のライフスタイルに合わせた柔軟な働き方が実現できます。</p>
+                    </div>
+                    <div class="p-4 bg-slate-50 rounded-lg border border-slate-200 flex flex-col justify-between">
+                        <span class="text-xs text-slate-500 font-semibold mb-1">ワークスタイル</span>
+                        <span class="text-base font-bold text-slate-800">リモート勤務柔軟に可能</span>
+                        <p class="text-xs text-slate-500 mt-2">生産性を最優先にしたハイブリッドな勤務形態が浸透しています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3 -->
+        <section id="section-3" class="scroll-mt-6">
+            <div class="border-l-4 border-brand-600 pl-4 mb-6">
+                <h2 class="text-2xl font-bold text-slate-900">SECTION 3: 想定質問・必須問い対策</h2>
+                <p class="text-sm text-slate-600">面接官の意図、回答の軸、および具体的な回答例</p>
+            </div>
+
+            <!-- Question Card -->
+            <div class="card bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                <div class="bg-slate-900 text-white p-5">
+                    <div class="text-xs text-brand-400 font-bold uppercase tracking-wider mb-1">QUESTION 1</div>
+                    <h3 class="text-lg font-bold">【質問1】自己紹介と志望動機</h3>
+                </div>
+
+                <div class="p-6 space-y-6">
+                    <!-- Intent -->
+                    <div class="bg-blue-50/70 border-l-4 border-blue-500 p-4 rounded-r-lg">
+                        <div class="text-xs font-bold text-blue-800 uppercase tracking-wide mb-1">面接官の意図</div>
+                        <p class="text-sm text-blue-950 font-medium leading-relaxed">
+                            再現性のある強みと自社カルチャーのマッチ度確認
+                        </p>
+                    </div>
+
+                    <!-- Axes Grid -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <!-- NG Axis -->
+                        <div class="bg-red-50 border border-red-200 rounded-lg p-4">
+                            <div class="flex items-center gap-2 text-red-700 font-bold text-sm mb-2">
+                                <span class="w-2 h-2 rounded-full bg-red-600"></span>
+                                NG軸（避けるべき方向性）
+                            </div>
+                            <p class="text-xs text-red-900 leading-relaxed font-medium">
+                                前職の不満メイン、スキルアピールのみで理念共感がゼロ
+                            </p>
+                        </div>
+
+                        <!-- BETTER Axis -->
+                        <div class="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
+                            <div class="flex items-center gap-2 text-emerald-700 font-bold text-sm mb-2">
+                                <span class="w-2 h-2 rounded-full bg-emerald-600"></span>
+                                BETTER軸（目指すべき方向性）
+                            </div>
+                            <p class="text-xs text-emerald-900 leading-relaxed font-medium">
+                                前職での具体的な原体験 ＋ 企業のミッションへの接続
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Example Answer -->
+                    <div class="bg-slate-50 border border-slate-200 rounded-lg p-5">
+                        <div class="flex items-center gap-2 text-brand-800 font-bold text-sm mb-3">
+                            <span class="px-2 py-0.5 bg-brand-100 text-brand-800 rounded text-xs font-bold">★回答例★</span>
+                            模範回答フレームワーク
+                        </div>
+                        <blockquote class="text-xs sm:text-sm text-slate-700 leading-relaxed italic bg-white p-4 rounded border border-slate-200">
+                            「前職では〜〜の課題に対し〇〇を実行しました。貴社のミッションである〜〜に強く共感し…」、「他のSaaS企業と違って…」
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4 -->
+        <section id="section-4" class="scroll-mt-6">
+            <div class="border-l-4 border-brand-600 pl-4 mb-6">
+                <h2 class="text-2xl font-bold text-slate-900">SECTION 4: 参考URL集</h2>
+                <p class="text-sm text-slate-600">事前企業研究・一次情報の確認用公式リンク</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <a href="https://www.works-hi.co.jp/corporate" target="_blank" rel="noopener noreferrer" class="card bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:border-brand-500 hover:shadow-md transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="text-xs text-brand-600 font-bold mb-1">OFFICIAL</div>
+                        <div class="font-bold text-slate-900 group-hover:text-brand-600 transition-colors">コーポレートサイト</div>
+                        <p class="text-xs text-slate-500 mt-1">会社概要・事業内容の詳細確認</p>
+                    </div>
+                    <div class="text-xs font-semibold text-brand-600 mt-4 flex items-center gap-1">
+                        サイトを見る &rarr;
+                    </div>
+                </a>
+
+                <a href="https://www.works-hi.co.jp/customer" target="_blank" rel="noopener noreferrer" class="card bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:border-brand-500 hover:shadow-md transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="text-xs text-brand-600 font-bold mb-1">CASE STUDY</div>
+                        <div class="font-bold text-slate-900 group-hover:text-brand-600 transition-colors">導入事例</div>
+                        <p class="text-xs text-slate-500 mt-1">1,200法人グループへの具体的な支援実績</p>
+                    </div>
+                    <div class="text-xs font-semibold text-brand-600 mt-4 flex items-center gap-1">
+                        事例を見る &rarr;
+                    </div>
+                </a>
+
+                <a href="https://www.career.works-hi.co.jp/" target="_blank" rel="noopener noreferrer" class="card bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:border-brand-500 hover:shadow-md transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="text-xs text-brand-600 font-bold mb-1">RECRUIT</div>
+                        <div class="font-bold text-slate-900 group-hover:text-brand-600 transition-colors">採用情報</div>
+                        <p class="text-xs text-slate-500 mt-1">カルチャー・求める人物像の把握</p>
+                    </div>
+                    <div class="text-xs font-semibold text-brand-600 mt-4 flex items-center gap-1">
+                        採用情報を探す &rarr;
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-8 px-4 text-center text-xs mt-12 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto space-y-2">
+            <p>選考対策＆企業魅力完全ガイド — 株式会社Works Human Intelligence</p>
+            <p class="text-slate-600">&copy; 2026 選考対策サポート. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
